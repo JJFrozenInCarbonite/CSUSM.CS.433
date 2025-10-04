@@ -1,6 +1,6 @@
-#include<pthread.h>
-#include<stdio.h>
-#include<unistd.h>
+#include <pthread.h>
+#include <stdio.h>
+#include <unistd.h>
 
 void *fun1();
 void *fun2();
