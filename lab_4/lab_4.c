@@ -6,7 +6,7 @@ void *fun1();
 void *fun2();
 
 //shared variable
-int shared=1; 
+int shared = 1; 
 
 int main() {
 
@@ -39,7 +39,7 @@ void *fun1() {
     
     //thread one increments its value
     x++;             
-    printf("Local updation by Thread1: %d\n",x);
+    printf("Local update by Thread1: %d\n",x);
     
     //thread one is preempted by thread 2
     sleep(1);        
@@ -58,7 +58,7 @@ void *fun2() {
     
     //thread two increments its value
     y--;             
-    printf("Local updation by Thread2: %d\n",y);
+    printf("Local update by Thread2: %d\n",y);
 
     //thread two is preempted by thread 1
     sleep(1);        
